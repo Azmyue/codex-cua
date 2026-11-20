@@ -1,0 +1,4 @@
+*.tgz
+*.zip
+.codex-path-cache.txt
+node_modules/

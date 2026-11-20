@@ -1,0 +1,26 @@
+{
+  "name": "codex-cua-mcp",
+  "version": "2.1.0",
+  "description": "Zero-dependency standard stdio MCP server bridging OpenAI Codex's native Windows Computer Use engine with UI Automation, screenshot compression, and physical Esc abort overlay.",
+  "type": "module",
+  "main": "./server.mjs",
+  "bin": {
+    "codex-cua-mcp": "./server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "overlay.ps1",
+    "win_tools.ps1",
+    "uia_tree.ps1",
+    "install.ps1",
+    "README.md",
+    "assets"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azmyue/codex-cua.git"
+  }
+}
